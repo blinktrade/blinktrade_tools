@@ -44,7 +44,7 @@ def get_ledger_history():
       'MsgType': 'U34',
       'LedgerListReqID': requestId,
       'Page': page,
-      'PageSize': 100
+      'PageSize': 20
     }
 
     api_response = send_msg(msg)
